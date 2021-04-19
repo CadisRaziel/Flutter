@@ -1,0 +1,40 @@
+StatelessWidget nunca muda usado para icones, imagens, textos que nao
+vao ser alterados
+StatefulWidget muda de alguma forma quand o usuario interage com ela (UM
+CHECK BOX, UM TEXTFIELD, UM SLIDER)
+
+//esse texto nao ira mudar !!
+OU SEJA
+class MyTextWidget extends StatelessWidget{
+     Widget build(inContext) {
+        return new Text("Hello");
+     }
+      }
+
+//repare que a StatefulWidget tem que ser feita uma sobrescrita de
+metodo com o override
+//REPARE TAMBEM QUE SEMPE TEMOS QUE CRIAR UMA CLASSE DE STATO PARA
+INTERAGIR COM ELA
+class LikesWidget extends StatefulWidget{
+     @override
+     LikesWidgetState createState() => LikeWidgetState();
+     }
+class LikeWidgetState extends<LikeWidget> {
+    int likeCount = 0
+    void like() {
+     setState(() {
+     likeCount += 1;
+     })
+     @override
+     Widget build(BuildContext in Context) {
+     return Row(
+         children: [
+            RaisedButton(
+         onPressed : like,
+                child: Text('$likeCount')
+         )
+           ]
+     );
+        }
+}
+
