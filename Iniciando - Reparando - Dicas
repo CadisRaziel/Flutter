@@ -1,13 +1,41 @@
+
+///Criando projeto padrao para estudo
 cd Documentos > cd Flutter > flutter create nomedoprojeto
 cd nomedoprojeto 
 
+///Criando projeto com nome oficial(lembre-se, sempre que for criar um projeto com intenção de publicar na playStore coloque um nome dessa forma)
+///org = ele entende como o nome da nossa empresa
+flutter create --org br.com.nomeProjeto nomeApp
 
-PARA CRIAR PROJETOS DESKTOP DEVEMOS ATIVAR UMA FUNÇÃO
+
+///PARA CRIAR PROJETOS DESKTOP DEVEMOS ATIVAR UMA FUNÇÃO
 flutter config --enable-windows-desktop
 flutter config --enable-macos-desktop
 flutter config --enable-linux-desktop
 
 
+///Excluindo pastas android e ios
 Caso alguma pasta que o flutter crie começa a dar erro ou voce quer criar novamente o app no mesmo arquivo
 apague as pastas e rode o comando 'flutter create .' <- repare no . no final
 ele vai recriar tudo do 0
+
+
+///Alterando as linguagens do nativo de kotlin para Java e Swift para Objectv-C
+Posso fazer essa alteração pelo vscode entrando em 'settings' procure 'dart & flutter' e va até em 'Dart: Flutter Create Android Language', ios ta embaixo
+em seguida logo abaixo do Ios tem 'dart: Flutter Create Organization' e la voce altera no nome br.com.nomeProjeto
+///POREM OLHE COMO PELA LINHA DE COMANDO È MAIS FACIL \/
+/// -i = IOS      -a = JAVA
+flutter create --org br.com.nomeProjeto -i objc -a java nomeApp
+
+
+
+///OBS OFF
+///Emulando meu celular fisico moto one
+Toque em.
+Toque em Configurar.
+Toque em Sobre o telefone.
+Toque no campo Número da versão 7 vezes. Você verá uma mensagem ao se aproximar dos 7 toques.
+Toque na seta de voltar quando concluído e as Opções de desenvolvedores aparecerão em Configurar .
+Depois va em 'sistemas' e tcharam estara la 'opções de desenvolvedor'
+em seguida habilite a 'Depuração USB' quando terminar desabilite ela
+Lembre-se de conectar o celular no usb !
