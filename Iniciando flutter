@@ -49,4 +49,11 @@ E SALVE E PRONTO !!
 
 
 
+PARA CRIAR PROJETOS DESKTOP DEVEMOS ATIVAR UMA FUNÇÃO
+flutter config --enable-windows-desktop
+flutter config --enable-macos-desktop
+flutter config --enable-linux-desktop
+
+
+
 
