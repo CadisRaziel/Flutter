@@ -7,6 +7,9 @@ cd nomedoprojeto
 ///org = ele entende como o nome da nossa empresa
 flutter create --org br.com.nomeProjeto nomeApp
 
+//Criando projeto com nome oficial e escolhendo a linguagem e a plataforma que queremos (web, app, linux, win, mac)
+//flutter create --project-name=nome_projeto --org br.com.nomeprojeto --platforms android,ios -i swift -a java ./pasta_nome_projeto
+
 
 ///PARA CRIAR PROJETOS DESKTOP DEVEMOS ATIVAR UMA FUNÇÃO
 flutter config --enable-windows-desktop
@@ -29,7 +32,6 @@ em seguida logo abaixo do Ios tem 'dart: Flutter Create Organization' e la voce 
 ///POREM OLHE COMO PELA LINHA DE COMANDO È MAIS FACIL \/
 /// -i = IOS      -a = JAVA
 flutter create --org br.com.nomeProjeto -i objc -a java nomeApp
-
 
 
 ///OBS OFF
