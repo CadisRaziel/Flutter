@@ -9,6 +9,7 @@ flutter create --org br.com.nomeProjeto nomeApp
 
 //Criando projeto com nome oficial e escolhendo a linguagem e a plataforma que queremos (web, app, linux, win, mac)
 //flutter create --project-name=nome_projeto --org br.com.nomeprojeto --platforms android,ios -i swift -a java ./pasta_nome_projeto
+(--project-name=nome_projeto = nome do app no celular)
 
 
 ///PARA CRIAR PROJETOS DESKTOP DEVEMOS ATIVAR UMA FUNÇÃO
