@@ -68,3 +68,15 @@ repare que vai aparecer a mensagem connected to 190.100.10.0:5555
 
 site para ajuar:
 https://medium.com/@jmellodev/flutter-debug-por-wifi-435d508a09cf
+
+
+
+//Conectando com dois emuladores 1 fisico e 1 virtual
+//conecte o emulador fisico no vs code mas não starte !!!!
+//no terminal va até a pasta do projeto e inicie pelo terminal um emulador virtual com o comando 'flutter run'
+//com isso o vs code não vai startar o projeto, ele vai identificar os dois emuladores e perguntar com qual queremos startar !!!
+//com isso pegue o ID do emulador virtual
+//em seguida de um 'flutter run' com esse comando 'flutter run -d IDDOEMULADOR'
+//ele vai startar o projeto no emulador virtual
+//com isso podemos ir no vs code e startar o emulador fisico pelo vs code e pronto 2 emuladores no mesmo projeto !!
+fonte: https://www.alura.com.br/artigos/como-integrar-rodar-o-flutter-no-vscode#:~:text=Para%20subir%20dois%20emulador%20basta,desligando%20e%20ligando%20o%20projeto.
