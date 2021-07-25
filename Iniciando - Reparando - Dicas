@@ -72,7 +72,7 @@ https://medium.com/@jmellodev/flutter-debug-por-wifi-435d508a09cf
 
 
 //Conectando com dois emuladores 1 fisico e 1 virtual
-//conecte o emulador fisico no vs code mas não starte !!!!
+//conecte o emulador fisico no vs code mas não starte, abra um emulador virtual e aguarde ele iniciar, em seguida:
 //no terminal va até a pasta do projeto e inicie pelo terminal um emulador virtual com o comando 'flutter run'
 //com isso o vs code não vai startar o projeto, ele vai identificar os dois emuladores e perguntar com qual queremos startar !!!
 //com isso pegue o ID do emulador virtual
