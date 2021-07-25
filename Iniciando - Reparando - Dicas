@@ -80,3 +80,10 @@ https://medium.com/@jmellodev/flutter-debug-por-wifi-435d508a09cf
 //ele vai startar o projeto no emulador virtual
 //com isso podemos ir no vs code e startar o emulador fisico pelo vs code e pronto 2 emuladores no mesmo projeto !!
 fonte: https://www.alura.com.br/artigos/como-integrar-rodar-o-flutter-no-vscode#:~:text=Para%20subir%20dois%20emulador%20basta,desligando%20e%20ligando%20o%20projeto.
+
+
+
+//visualizando a performace do app (quantos fps etc...)
+//instalei o flutter dev tools
+//sempre que eu inicializo o emulador eu preciso inicializar dessa forma : flutter run --profile
+//Com isso ele vai abrir o emulador escolhido e uma URL para podermos clicar e abrir a pagina do devtools
