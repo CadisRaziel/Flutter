@@ -20,6 +20,10 @@ flutter config --enable-linux-desktop
 //para desabilitar o desktop
 flutter config --no-enable-linux-desktop
 
+//PARA CRIAR PROJETOS WEB
+flutter config --enable-web
+
+
 
 ///Excluindo pastas android e ios
 Caso alguma pasta que o flutter crie começa a dar erro ou voce quer criar novamente o app no mesmo arquivo
