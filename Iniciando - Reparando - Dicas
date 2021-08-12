@@ -91,3 +91,9 @@ fonte: https://www.alura.com.br/artigos/como-integrar-rodar-o-flutter-no-vscode#
 //instalei o flutter dev tools
 //sempre que eu inicializo o emulador eu preciso inicializar dessa forma : flutter run --profile
 //Com isso ele vai abrir o emulador escolhido e uma URL para podermos clicar e abrir a pagina do devtools
+
+
+
+//Iniciando projeto apenas em DART
+dart create -t console-full dart_nome_projeto
+//-t -> template console-full
