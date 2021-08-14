@@ -97,3 +97,7 @@ fonte: https://www.alura.com.br/artigos/como-integrar-rodar-o-flutter-no-vscode#
 //Iniciando projeto apenas em DART
 dart create -t console-full dart_nome_projeto
 //-t -> template console-full
+
+
+Ao utilizar o web-server será criado um servidor local em uma porta listada pelo Flutter, essa mesma porta pode ser acessada por qualquer navegador para testar a aplicação.
+flutter run -d web-server
