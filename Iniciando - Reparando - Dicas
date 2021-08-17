@@ -1,3 +1,6 @@
+//Para ver configurações e comandos
+flutter create -h
+
 
 ///Criando projeto padrao para estudo
 cd Documentos > cd Flutter > flutter create nomedoprojeto
@@ -101,3 +104,9 @@ dart create -t console-full dart_nome_projeto
 
 Ao utilizar o web-server será criado um servidor local em uma porta listada pelo Flutter, essa mesma porta pode ser acessada por qualquer navegador para testar a aplicação.
 flutter run -d web-server
+
+
+//Criando packages
+package -> quando queremos criar um projeto apenas usando Dart
+puglin -> quando vamos criar codigo ativo, ou seja: kotlin, swift, java, etc...
+flutter create --template=package nome_package
