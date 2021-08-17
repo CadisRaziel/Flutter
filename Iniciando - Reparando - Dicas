@@ -113,3 +113,12 @@ flutter create --template=package nome_package
 //Obs
 package -> quando queremos criar um projeto apenas usando Dart
 puglin -> quando vamos criar codigo ativo, ou seja: kotlin, swift, java, etc...
+
+//Publicando packages
+*dry-run -> para ver se esta tudo certo no package e ver se tem erros, SEMPRE USE ELE PRIMEIRO
+dentro da pasta do package utilize o 'flutter pub publish -dry-run'
+depois de nao ter erros nos utilizamos o 'flutter pub publish'
+
+e tcharam 'https://pub.dev/packages/cep_search'
+meu primeiro package
+
