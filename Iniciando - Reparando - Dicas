@@ -107,6 +107,9 @@ flutter run -d web-server
 
 
 //Criando packages
+flutter create --template=package nome_package
+//depois de criar o package, fazemos as alterações dele e dentro da pasta dele 'nome_package' damos um flutter create example
+
+//Obs
 package -> quando queremos criar um projeto apenas usando Dart
 puglin -> quando vamos criar codigo ativo, ou seja: kotlin, swift, java, etc...
-flutter create --template=package nome_package
