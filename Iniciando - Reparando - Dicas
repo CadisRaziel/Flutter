@@ -122,3 +122,12 @@ depois de nao ter erros nos utilizamos o 'flutter pub publish'
 e tcharam 'https://pub.dev/packages/cep_search'
 meu primeiro package
 
+
+
+//Gerando um apk
+//Va até a pasta do projeto no terminal
+//quando estiver nela digite 'flutter build apk', ou 'flutter build ios', ou 'flutter build bundle -t para gerar em 64bits ou 32bits'
+(caso o main.dart estiver escrito de outra forma como main_dev.dart, main_prod.dart, precisamos fazer dessa forma : 'flutter build apk -t lib/main_prod.dart)
+//para instalar no celular, conecte o celular no pc e digite 'flutter install -d numero_do_service'
+//para pegar o numero do service digite no terminal: adb devices (com isso vai aparecer o numero de serie dos celulares que estiver conectado)
+
