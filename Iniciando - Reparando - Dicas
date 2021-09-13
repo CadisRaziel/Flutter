@@ -14,6 +14,9 @@ flutter create --org br.com.nomeProjeto nomeApp
 //flutter create --project-name=nome_projeto --org br.com.nomeprojeto --platforms android,ios -i swift -a java ./pasta_nome_projeto
 (--project-name=nome_projeto = nome do app no celular)
 
+//criando projeto apenas para android
+//flutter create --platforms android --org br.com.nomeprojeto --project-name nomeapp ./vhs_filmes
+
 
 ///PARA CRIAR PROJETOS DESKTOP DEVEMOS ATIVAR UMA FUNÇÃO
 flutter config --enable-windows-desktop
