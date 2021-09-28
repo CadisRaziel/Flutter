@@ -11,8 +11,10 @@ cd nomedoprojeto
 flutter create --org br.com.nomeProjeto nomeApp
 
 //Criando projeto com nome oficial e escolhendo a linguagem e a plataforma que queremos (web, app, linux, win, mac)
-//flutter create --project-name=nome_projeto --org br.com.nomeprojeto --platforms android,ios -i swift -a java ./pasta_nome_projeto
-(--project-name=nome_projeto = nome do app no celular)
+//- flutter create --project-name=nome_projeto --org br.com.houseasy --platforms web, android, ios, windows, linux -a kotlin -i swift ./nome_pasta_que_vai_salvar_o_projeto
+//org -> nome site escrtio ao contrario (br.com.globo) (com.facebook)
+//platforms -> plataforma que o projeto vai da suporte 
+//-a kotlin -> vai utilizar kotlin como nativo || -i swift -> vai utilizar swift como nativo
 
 //criando projeto apenas para android
 //flutter create --platforms android --org br.com.nomeprojeto --project-name nomeapp ./vhs_filmes
