@@ -137,3 +137,9 @@ meu primeiro package
 //para instalar no celular, conecte o celular no pc e digite 'flutter install -d numero_do_service'
 //para pegar o numero do service digite no terminal: adb devices (com isso vai aparecer o numero de serie dos celulares que estiver conectado)
 
+
+
+//Fazendo analise do app, pra ve o tamanho dele
+flutter build appbundle --analyze-size --target-platform android-arm64
+//depois que ele termina ele vai demonstrar tudo no terminal, porém ele tambem da um um comando para rodar no terminal de novo pra abrir o devtools
+//Exemplo: flutter pub global run devtools --appSizeBase=C:\Users\nomeProjeto\.flutter-devtools\abb-code-size-analysis_02.json
