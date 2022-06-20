@@ -143,3 +143,7 @@ meu primeiro package
 flutter build appbundle --analyze-size --target-platform android-arm64
 //depois que ele termina ele vai demonstrar tudo no terminal, porém ele tambem da um um comando para rodar no terminal de novo pra abrir o devtools
 //Exemplo: flutter pub global run devtools --appSizeBase=C:\Users\nomeProjeto\.flutter-devtools\abb-code-size-analysis_02.json
+
+
+//apk
+flutter build apk --release
