@@ -152,3 +152,9 @@ flutter build appbundle --analyze-size --target-platform android-arm64
 
 //apk
 flutter build apk --release
+
+
+flutter run -d chrome --web-renderer canvaskit
+
+
+flutter build web --web-renderer canvaskit
