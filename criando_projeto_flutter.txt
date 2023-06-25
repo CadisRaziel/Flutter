@@ -1,0 +1,22 @@
+///Projeto padrão
+cd Documentos > cd Flutter > flutter create nomedoprojeto
+cd nomedoprojeto 
+
+//Criando projeto com nome oficial e escolhendo a linguagem e a plataforma que queremos (web, app, linux, win, mac)
+//EXEMPLO COM TODOS ->  flutter create --project-name=nome_projeto --org br.com.houseasy --platforms web, android, ios, windows, linux -a kotlin -i swift ./nome_pasta_que_vai_salvar_o_projeto
+//EXEMPLO MOBILE ANDROID E IOS -> flutter create --project-name=nome_projeto --org br.com.houseasy --platforms android,ios -a kotlin -i swift ./nome_pasta_que_vai_salvar_o_projeto
+//EXEMPLO MOBILE ANDROID -> flutter create --platforms android --org br.com.nomeprojeto --project-name nomeapp ./vhs_filmes
+//org -> nome site escrtio ao contrario (br.com.globo) (com.facebook)
+//platforms -> plataforma que o projeto vai da suporte 
+//-a kotlin -> vai utilizar kotlin como nativo || -i swift -> vai utilizar swift como nativo
+
+///PARA CRIAR PROJETOS DESKTOP DEVEMOS ATIVAR UMA FUNÇÃO
+flutter config --enable-windows-desktop
+flutter config --enable-macos-desktop
+flutter config --enable-linux-desktop
+
+//para desabilitar o desktop
+flutter config --no-enable-linux-desktop
+
+//PARA CRIAR PROJETOS WEB
+flutter config --enable-web

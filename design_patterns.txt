@@ -1,0 +1,2 @@
+
+design patterns -> factory, singleton, padrao builder, padrao observable

@@ -1,0 +1,10 @@
+
+
+
+///Referente as pastas que o flutter create cria
+as pastas: .dart_tool e .idea são pastas de configurações que não usamos
+e tambem o arquivo iml que cria na raiz do projeto
+podemos deixa-las invisiveis
+entre no 'settings' e digite na pesquisa 'exclude'
+em seguida adicone elas = **/.dart_tool e **/.idea e **/*.iml
+

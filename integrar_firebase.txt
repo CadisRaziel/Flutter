@@ -1,13 +1,3 @@
-cd Documentos > cd Flutter > flutter create nomedoprojeto
-cd nomedoprojeto 
-nomedoprojeto: dart migrate --apply-changes (para colocar o null safety) posso criar o projeto e por depois tambem
-nomedoprojeto code.
-nomedoprojeto flutter run
-
-
-caso precisar no visual studio de CTRL + p coloque ">" add vai aparecer "Pubspec assist: Add/update dependencies aperte o Enter e coloque "http" e aperte o enter
-
-
 integrando o firebase no nosso projeto flutter :
 PRIMEIRO PASSO: inicialmente crie um projeto no firebase para pegar o "nome do pacote" entre na pasta "android" > "app" > "src" > "Profile" > "Androidmanifest.xml" e la estara o "package"
 
@@ -46,16 +36,3 @@ e depois nas "dependencies" logo abaixo cole isso:
     implementation 'com.google.firebase:firebase-analytics'
 
 E SALVE E PRONTO !!
-
-
-
-PARA CRIAR PROJETOS DESKTOP DEVEMOS ATIVAR UMA FUNÇÃO
-flutter config --enable-windows-desktop
-flutter config --enable-macos-desktop
-flutter config --enable-linux-desktop
-
-
-Caso alguma pasta que o flutter crie começa a dar erro ou voce quer criar novamente o app no mesmo arquivo
-apague as pastas e rode o comando 'flutter create .' <- repare no . no final
-ele vai recriar tudo do 0
-

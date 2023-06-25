@@ -1,0 +1,18 @@
+
+//Criando packages
+flutter create --template=package nome_package
+//depois de criar o package, fazemos as alterações dele e dentro da pasta dele 'nome_package' damos um flutter create example
+
+
+//Obs
+package -> quando queremos criar um projeto apenas usando Dart
+puglin -> quando vamos criar codigo ativo, ou seja: kotlin, swift, java, etc...
+
+
+//Publicando packages
+*dry-run -> para ver se esta tudo certo no package e ver se tem erros, SEMPRE USE ELE PRIMEIRO
+dentro da pasta do package utilize o 'flutter pub publish -dry-run'
+depois de nao ter erros nos utilizamos o 'flutter pub publish'
+
+e tcharam 'https://pub.dev/packages/cep_search'
+meu primeiro package

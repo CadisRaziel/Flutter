@@ -1,0 +1,2 @@
+Diferença entre Future e microtask
+Future é usado para agendar tarefas assincronas que serão executadas mais tarde, enquanto shceduleMicrotask é usado para agendar tarefas assincronas que serão executadas antes da proxima iteração do event loop

@@ -1,0 +1,6 @@
+///Alterando as linguagens do nativo de kotlin para Java e Swift para Objectv-C
+Posso fazer essa alteração pelo vscode entrando em 'settings' procure 'dart & flutter' e va até em 'Dart: Flutter Create Android Language', ios ta embaixo
+em seguida logo abaixo do Ios tem 'dart: Flutter Create Organization' e la voce altera no nome br.com.nomeProjeto
+///POREM OLHE COMO PELA LINHA DE COMANDO È MAIS FACIL \/
+/// -i = IOS      -a = JAVA
+flutter create --org br.com.nomeProjeto -i objc -a java nomeApp

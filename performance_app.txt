@@ -1,0 +1,4 @@
+//visualizando a performace do app (quantos fps etc...)
+//instalei o flutter dev tools
+//sempre que eu inicializo o emulador eu preciso inicializar dessa forma : flutter run --profile ou flutter run --enable-software-rendering
+//Com isso ele vai abrir o emulador escolhido e uma URL para podermos clicar e abrir a pagina do devtools

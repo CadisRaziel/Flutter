@@ -1,0 +1,4 @@
+///Excluindo pastas android e ios
+Caso alguma pasta que o flutter crie começa a dar erro ou voce quer criar novamente o app no mesmo arquivo
+apague as pastas e rode o comando 'flutter create .' <- repare no . no final
+ele vai recriar tudo do 0

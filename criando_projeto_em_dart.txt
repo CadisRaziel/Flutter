@@ -1,0 +1,4 @@
+
+//Iniciando projeto apenas em DART
+dart create -t console-full dart_nome_projeto
+//-t -> template console-full
