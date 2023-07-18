@@ -1,0 +1,2 @@
+//Para ofuscar o código na hora de gerar um apk (não vai faze milagre e ofuscar tudo, mais ja ajuda muito)
+flutter build apk --obfuscate --split-debug-info=/<caminho_do_arquivo_de_saida>
