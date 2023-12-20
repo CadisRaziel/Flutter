@@ -18,6 +18,7 @@ repare que vai aparecer a seguinte mensagem: restarting in TCP mode port: 5555
 4-> no terminal digite(lembrando tem que ser o ip do seu celular fisico: adb connect 190.100.10.0 ou adb connect 190.100.10.0:5555
 repare que vai aparecer a mensagem connected to 190.100.10.0:5555
 5-> e pronto é só desconectar o cabo e olha no vscode o celular conectado !
+6-> quando voce desligar e ligar o note e quiser conecta novamente é só dar um abc connect 190.100.10.0, caso voce nao desligou o celular ele ainda vai funciona sem precisa conecta o cabo
 
 site para ajuar:
 https://medium.com/@jmellodev/flutter-debug-por-wifi-435d508a09cf
