@@ -1,6 +1,6 @@
 
 //Criando packages
-flutter create --template=package nome_package
+flutter create --project-name name_project --org br.com.vitupwd --template=package ./name_project
 //depois de criar o package, fazemos as alterações dele e dentro da pasta dele 'nome_package' damos um flutter create example
 
 
