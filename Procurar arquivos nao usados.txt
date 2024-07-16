@@ -1,0 +1,2 @@
+CTRL + SHIFT + P Flutter: Find Unused Dart Files & Assets
+CTRL + P + > Flutter: Find Unused Dart Files & Assets
